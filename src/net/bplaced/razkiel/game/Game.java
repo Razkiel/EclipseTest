@@ -24,7 +24,6 @@ public class Game extends Canvas  implements Runnable {
 	private boolean running = false;
 	
 	
-	
 	public void start() {
 		running = true;
 		new Thread(this).start();
